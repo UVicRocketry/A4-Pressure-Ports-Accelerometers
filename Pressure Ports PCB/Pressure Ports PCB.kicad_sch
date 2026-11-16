@@ -634,6 +634,316 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "GY-521:GY-521"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -10.16 10.922 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "GY-521"
+				(at -10.16 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "Footprints:GY-521"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" "https://snapeda.s3.amazonaws.com/datasheets/Triple_Axis_Accelerometer-Gyro_Breakout_-_MPU-6050_v12.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Description" "Triple Axis Accelerometer Gyro Breakout"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "DATASHEET_URL" "https://snapeda.s3.amazonaws.com/datasheets/Triple_Axis_Accelerometer-Gyro_Breakout_-_MPU-6050_v12.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MANUFACTURER" "GODREAM FORDREAM CO., LIMITED"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "3.00mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MPN" "GY-521"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Package" "Package"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "SOURCE_URL" "https://www.snapeda.com/parts/GY-521/GODREAM+FORDREAM+CO.%252C+LIMITED/view-part/"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "GY-521_0_0"
+				(rectangle
+					(start -10.16 -12.7)
+					(end 10.16 10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -15.24 2.54 0)
+					(length 5.08)
+					(name "AD0"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "AD0"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 15.24 -10.16 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 2.54 180)
+					(length 5.08)
+					(name "INT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "INT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input clock
+					(at -15.24 -2.54 0)
+					(length 5.08)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "SCL"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 -5.08 0)
+					(length 5.08)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "SDA"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 15.24 7.62 180)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "VCC"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output clock
+					(at 15.24 -2.54 180)
+					(length 5.08)
+					(name "XCL"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "XCL"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -5.08 180)
+					(length 5.08)
+					(name "XDA"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "XDA"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "MCU_ST_STM32H7:STM32H743ZITx"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5555,6 +5865,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 168.91) (xy 50.8 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40ead86c-a733-463e-aacc-6b4a6f8992ab")
+	)
+	(wire
+		(pts
 			(xy 231.14 49.53) (xy 231.14 54.61)
 		)
 		(stroke
@@ -5562,6 +5882,16 @@
 			(type default)
 		)
 		(uuid "4295a4c3-e527-4475-af49-6b747cef6f74")
+	)
+	(wire
+		(pts
+			(xy 83.82 173.99) (xy 81.28 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42e5b17d-01a4-41ef-bbed-66d2a12cb21d")
 	)
 	(wire
 		(pts
@@ -5975,6 +6305,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 177.8) (xy 83.82 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a71431b5-5b57-4887-b2b5-d70617072c5e")
+	)
+	(wire
+		(pts
 			(xy 254 125.73) (xy 259.08 125.73)
 		)
 		(stroke
@@ -5982,6 +6322,16 @@
 			(type default)
 		)
 		(uuid "ac4bf27f-523d-4f41-8892-7970e7ca9db9")
+	)
+	(wire
+		(pts
+			(xy 85.09 156.21) (xy 85.09 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad8bf561-312f-4909-b494-e8fd648194fe")
 	)
 	(wire
 		(pts
@@ -6265,6 +6615,26 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 156.21) (xy 85.09 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "faa979f5-bddb-428e-a650-57108e719576")
+	)
+	(wire
+		(pts
+			(xy 45.72 166.37) (xy 50.8 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc40cbc5-6c05-4a78-b1b8-1262cf36d75e")
+	)
+	(wire
+		(pts
 			(xy 226.06 49.53) (xy 228.6 49.53)
 		)
 		(stroke
@@ -6322,6 +6692,26 @@
 			(justify left bottom)
 		)
 		(uuid "7026c482-5d2e-4dbc-ba07-4156619250a6")
+	)
+	(label "SDA"
+		(at 45.72 168.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "89c17b53-a27d-4aca-ab21-a1887d43b49e")
+	)
+	(label "SCL"
+		(at 45.72 166.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9ea99fec-7c18-4c74-9a5d-d9ed78e776e4")
 	)
 	(symbol
 		(lib_id "power:+3.3V")
@@ -7219,6 +7609,84 @@
 			(project "Pressure Ports PCB"
 				(path "/b2fb6c0d-0843-46bb-b259-12f92aa1adbf"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 85.09 152.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3ae6f6b1-e898-4604-843e-9741bb5efcee")
+		(property "Reference" "#PWR013"
+			(at 85.09 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 85.09 147.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 85.09 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 85.09 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0997bdde-4fa9-460d-94c8-fba51597e0a3")
+		)
+		(instances
+			(project "Pressure Ports PCB"
+				(path "/b2fb6c0d-0843-46bb-b259-12f92aa1adbf"
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -8842,6 +9310,269 @@
 			(project "Pressure Ports PCB"
 				(path "/b2fb6c0d-0843-46bb-b259-12f92aa1adbf"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GY-521:GY-521")
+		(at 66.04 163.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ea002584-d2ba-4bc3-835a-bc7a5ad86a1e")
+		(property "Reference" "U4"
+			(at 66.04 148.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GY-521"
+			(at 66.04 151.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Footprints:GY-521"
+			(at 66.04 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" "https://snapeda.s3.amazonaws.com/datasheets/Triple_Axis_Accelerometer-Gyro_Breakout_-_MPU-6050_v12.pdf"
+			(at 66.04 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Description" "Triple Axis Accelerometer Gyro Breakout"
+			(at 66.04 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "DATASHEET_URL" "https://snapeda.s3.amazonaws.com/datasheets/Triple_Axis_Accelerometer-Gyro_Breakout_-_MPU-6050_v12.pdf"
+			(at 66.04 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "GODREAM FORDREAM CO., LIMITED"
+			(at 66.04 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "3.00mm"
+			(at 66.04 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MPN" "GY-521"
+			(at 66.04 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "Package"
+			(at 66.04 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SOURCE_URL" "https://www.snapeda.com/parts/GY-521/GODREAM+FORDREAM+CO.%252C+LIMITED/view-part/"
+			(at 66.04 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 66.04 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "SCL"
+			(uuid "a2e2d87a-7fb9-497e-a009-a238dceb0a88")
+		)
+		(pin "SDA"
+			(uuid "9d86de13-3b81-4c88-a5fa-ed0aea3d125f")
+		)
+		(pin "VCC"
+			(uuid "5952bc28-1559-4571-b948-6c2c33f81eee")
+		)
+		(pin "XDA"
+			(uuid "2fa8cf25-ac0e-4165-b99d-62f7fa1830c2")
+		)
+		(pin "INT"
+			(uuid "c9f5edc7-6ead-4379-abc1-97ef0a00cec0")
+		)
+		(pin "GND"
+			(uuid "54c74980-2b21-42d7-bf6f-935283b7e2e5")
+		)
+		(pin "AD0"
+			(uuid "4b6b015d-ef00-4fe5-b35f-c086192a2317")
+		)
+		(pin "XCL"
+			(uuid "f6c9a352-43fa-4267-a3dc-381eda4d96ca")
+		)
+		(instances
+			(project "Pressure Ports PCB"
+				(path "/b2fb6c0d-0843-46bb-b259-12f92aa1adbf"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 83.82 177.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f9f00bff-981f-4b86-97f3-2b9f3af0e211")
+		(property "Reference" "#PWR014"
+			(at 83.82 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 83.82 182.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 83.82 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7083805f-2614-4ad4-8231-8434f66eadd6")
+		)
+		(instances
+			(project "Pressure Ports PCB"
+				(path "/b2fb6c0d-0843-46bb-b259-12f92aa1adbf"
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
