@@ -5,6 +5,187 @@
 	(uuid "b2fb6c0d-0843-46bb-b259-12f92aa1adbf")
 	(paper "A3")
 	(lib_symbols
+		(symbol "Connector:Conn_01x02_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02_Pin"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x02_Pin_1_1"
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Conn_01x04_Pin"
 			(pin_names
 				(offset 1.016)
@@ -6367,6 +6548,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 20.32) (xy 170.18 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0deb1ff3-a9d3-4142-a5db-ada22ffbc367")
+	)
+	(wire
+		(pts
 			(xy 278.13 106.68) (xy 269.24 106.68)
 		)
 		(stroke
@@ -6504,6 +6695,16 @@
 			(type default)
 		)
 		(uuid "28d08345-2acd-41d2-b100-a1ad9de4ce15")
+	)
+	(wire
+		(pts
+			(xy 170.18 26.67) (xy 163.83 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bf27b5b-0c4e-4160-86bf-3ea3c3cc674c")
 	)
 	(wire
 		(pts
@@ -6807,6 +7008,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 29.21) (xy 166.37 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5983c2f4-7b4b-4825-9a3f-587647959f3d")
+	)
+	(wire
+		(pts
 			(xy 254 77.47) (xy 257.81 77.47)
 		)
 		(stroke
@@ -6847,7 +7058,7 @@
 	)
 	(wire
 		(pts
-			(xy 284.48 110.49) (xy 284.48 114.3)
+			(xy 283.21 110.49) (xy 283.21 114.3)
 		)
 		(stroke
 			(width 0)
@@ -6907,7 +7118,7 @@
 	)
 	(wire
 		(pts
-			(xy 284.48 114.3) (xy 290.83 114.3)
+			(xy 283.21 114.3) (xy 290.83 114.3)
 		)
 		(stroke
 			(width 0)
@@ -7324,6 +7535,16 @@
 			(type default)
 		)
 		(uuid "b40b46af-0413-44d5-9e3f-4fad50fc7d4b")
+	)
+	(wire
+		(pts
+			(xy 166.37 35.56) (xy 166.37 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7273f25-868a-4887-87a6-546f9ce76bbc")
 	)
 	(wire
 		(pts
@@ -8229,7 +8450,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 295.91 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -9348,7 +9569,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 284.48 110.49 0)
+		(at 283.21 110.49 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9359,7 +9580,7 @@
 		(fields_autoplaced yes)
 		(uuid "5b8ad566-2610-4b02-ba74-3186871db7a6")
 		(property "Reference" "#PWR018"
-			(at 284.48 114.3 0)
+			(at 283.21 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9370,7 +9591,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 284.48 105.41 0)
+			(at 283.21 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9380,7 +9601,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 284.48 110.49 0)
+			(at 283.21 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9391,7 +9612,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 284.48 110.49 0)
+			(at 283.21 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9402,7 +9623,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 284.48 110.49 0)
+			(at 283.21 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9988,6 +10209,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 158.75 26.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "79bed1f7-3c2a-4aa2-8bcf-5f5fcdce8192")
+		(property "Reference" "J3"
+			(at 159.385 21.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BMS connection"
+			(at 159.385 24.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
+			(at 158.75 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 158.75 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4adf8c21-74f4-460d-84c3-435470739de7")
+		)
+		(pin "1"
+			(uuid "96ed7a01-d7e8-4d10-9f90-89fe82b8df39")
+		)
+		(instances
+			(project "Pressure Ports PCB"
+				(path "/b2fb6c0d-0843-46bb-b259-12f92aa1adbf"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Sensor_Magnetic:MMC5633NJL")
 		(at 44.45 114.3 0)
 		(unit 1)
@@ -10305,6 +10606,84 @@
 			(project "Pressure Ports PCB"
 				(path "/b2fb6c0d-0843-46bb-b259-12f92aa1adbf"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 170.18 20.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8f742cea-1b7b-499e-be26-f5c5a9384c7c")
+		(property "Reference" "#PWR021"
+			(at 170.18 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 170.18 15.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 170.18 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "648767b8-c547-4acc-8cd9-c6f65816a4be")
+		)
+		(instances
+			(project "Pressure Ports PCB"
+				(path "/b2fb6c0d-0843-46bb-b259-12f92aa1adbf"
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -11483,6 +11862,84 @@
 			(project "Pressure Ports PCB"
 				(path "/b2fb6c0d-0843-46bb-b259-12f92aa1adbf"
 					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 166.37 35.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f18cc8ab-9a6a-4870-b95e-65939ef1b4ac")
+		(property "Reference" "#PWR020"
+			(at 166.37 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 166.37 40.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.37 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 166.37 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c6c8984a-d292-45a9-b93d-68a84794b0e2")
+		)
+		(instances
+			(project "Pressure Ports PCB"
+				(path "/b2fb6c0d-0843-46bb-b259-12f92aa1adbf"
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
