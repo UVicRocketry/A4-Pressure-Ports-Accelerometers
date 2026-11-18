@@ -6701,7 +6701,7 @@
 		(uuid "534ad8bc-ed09-4ab3-adc8-d7a43adf9529")
 	)
 	(junction
-		(at 120.65 72.39)
+		(at 110.49 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5f136b95-f6a4-4cf7-acbb-866e695ad655")
@@ -6773,6 +6773,12 @@
 		(uuid "95aaf5ea-8906-495a-9655-086dd4008955")
 	)
 	(junction
+		(at 124.46 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "98e31d30-c0f6-4911-85a8-b7a9c36a950e")
+	)
+	(junction
 		(at 186.69 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6803,7 +6809,7 @@
 		(uuid "aa1008e5-e5b2-4eda-a3eb-0ab2a7b0665d")
 	)
 	(junction
-		(at 120.65 60.96)
+		(at 110.49 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ac711909-539c-43fc-8e01-a8a7ddacc2df")
@@ -6819,6 +6825,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bb45e6be-f555-44c3-858e-285e3bcb7b97")
+	)
+	(junction
+		(at 110.49 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c0151859-91f5-4dca-8e57-00858b57db5e")
 	)
 	(junction
 		(at 109.22 30.48)
@@ -8088,7 +8100,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 76.2) (xy 120.65 72.39)
+			(xy 110.49 76.2) (xy 110.49 72.39)
 		)
 		(stroke
 			(width 0)
@@ -8278,6 +8290,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 69.85) (xy 113.03 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50ffdb6e-6a30-4bdd-a6c9-80dda9547cbb")
+	)
+	(wire
+		(pts
 			(xy 172.72 144.78) (xy 172.72 148.59)
 		)
 		(stroke
@@ -8358,7 +8380,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 60.96) (xy 120.65 60.96)
+			(xy 129.54 60.96) (xy 110.49 60.96)
 		)
 		(stroke
 			(width 0)
@@ -9298,6 +9320,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 69.85) (xy 110.49 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d4434e0-1a1d-472e-9cdd-18aaf5af1485")
+	)
+	(wire
+		(pts
 			(xy 195.58 149.86) (xy 203.2 149.86)
 		)
 		(stroke
@@ -9318,7 +9350,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 72.39) (xy 129.54 72.39)
+			(xy 110.49 72.39) (xy 129.54 72.39)
 		)
 		(stroke
 			(width 0)
@@ -9448,7 +9480,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 60.96) (xy 120.65 72.39)
+			(xy 110.49 60.96) (xy 110.49 69.85)
 		)
 		(stroke
 			(width 0)
@@ -9628,6 +9660,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 69.85) (xy 124.46 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b813d6ec-ab79-478e-80f1-cb579cf12751")
+	)
+	(wire
+		(pts
 			(xy 168.91 170.18) (xy 172.72 170.18)
 		)
 		(stroke
@@ -9675,6 +9717,16 @@
 			(type default)
 		)
 		(uuid "ba82877c-8523-4b8f-86ce-2100657db449")
+	)
+	(wire
+		(pts
+			(xy 110.49 49.53) (xy 120.65 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb74d1b8-85e5-4c6e-b3a1-ad798d6cf348")
 	)
 	(wire
 		(pts
@@ -10368,7 +10420,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 49.53) (xy 120.65 60.96)
+			(xy 110.49 49.53) (xy 110.49 60.96)
 		)
 		(stroke
 			(width 0)
@@ -12452,7 +12504,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 120.65 76.2 0)
+		(at 110.49 76.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12463,7 +12515,7 @@
 		(fields_autoplaced yes)
 		(uuid "3857b86c-61fd-4a80-8ea4-6cac21d36479")
 		(property "Reference" "#PWR010"
-			(at 120.65 82.55 0)
+			(at 110.49 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12474,7 +12526,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 120.65 81.28 0)
+			(at 110.49 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12484,7 +12536,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 120.65 76.2 0)
+			(at 110.49 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12495,7 +12547,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 76.2 0)
+			(at 110.49 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12506,7 +12558,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 120.65 76.2 0)
+			(at 110.49 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12837,6 +12889,86 @@
 			(project "Pressure Ports PCB"
 				(path "/b2fb6c0d-0843-46bb-b259-12f92aa1adbf"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 116.84 69.85 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "423d94be-57fe-45e7-8727-665d2d054538")
+		(property "Reference" "C23"
+			(at 116.84 62.23 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7 uF"
+			(at 116.84 64.77 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 120.65 68.8848 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 116.84 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "91fb27b7-b61f-401d-9b6f-9c0d775e40d9")
+		)
+		(pin "1"
+			(uuid "7c435f49-0ad5-4dec-9870-a7a68c2b612e")
+		)
+		(instances
+			(project "Pressure Ports PCB"
+				(path "/b2fb6c0d-0843-46bb-b259-12f92aa1adbf"
+					(reference "C23")
 					(unit 1)
 				)
 			)
